@@ -1,0 +1,17 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "um backend",
+	"main": "src/server.js",
+	"type": "module",
+	"scripts": {
+		"start": "node --watch --trace-warnings src/server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Matheus Andrade",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.19.1",
+		"mysql2": "^3.9.2"
+	}
+}
